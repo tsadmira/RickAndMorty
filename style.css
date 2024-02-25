@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(39, 43, 51);
+}
+.header{
+    background-color: rgb(84, 93, 111);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(3, 168, 151);
+}
+h1 > span{
+    color: rgb(2, 117, 106);
+}
+h1>span:hover{
+    color: rgb(3, 168, 151);
+}
+.list-characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(60, 62, 68);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
